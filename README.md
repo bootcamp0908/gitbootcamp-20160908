@@ -19,12 +19,18 @@
 
 ## 4.
 `git commit --amend`
+
 直前のコミットを全く別のコミットで置き換える
 
 ## 5.
 `git branch fix/42`
 
 自分のローカルリポジトリに "fix/42" というブランチを作る。 HEAD は移動しない。
+
+## 13.
+`git merge -ff-only`
+
+最新リビジョンをマスターブランチとする
 
 ## 14.
 git merge --no-f
