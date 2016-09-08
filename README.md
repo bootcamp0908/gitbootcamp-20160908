@@ -38,5 +38,7 @@ fix/42コミット.
 
 ## 18. `git pull --rebase`
 
+説明考え中
+
 #Issue test
  #1
