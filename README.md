@@ -3,7 +3,11 @@
 - bootcamp0908
 
   中森と申します。よろしくお願いします。
+
   岡田と申します。pullしてみます。
 - newline
 
-# Git のこと
+- account
+
+# git のコマンド解説
+
