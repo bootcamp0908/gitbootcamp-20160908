@@ -17,3 +17,7 @@
 `git branch fix/42`
 
 自分のローカルリポジトリに "fix/42" というブランチを作る。 HEAD は移動しない。
+
+## 14.
+git merge --no-f
+non-fast fowardのテスト
