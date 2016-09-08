@@ -37,7 +37,7 @@ addとcommitを一括で行う。
 
 ## 6.
 `git checkout -b fix/42;git commit`
-コミットを行った後、fix42のブランチを作成してHEADを作成したfix42に移動する。コミットなので変更ファイルは先にaddされている必要があるが、git commitに-aを加えればaddは省略できる。
+コミットを行った後、fix42のブランチを作成してHEADを作成したfix42に移動する。コミットなので変更ファイルは先にaddされている必要があるが、git commitに-aを加えればaddは省略できる。--amendが使えるかテストします。
 
 ## 14.
 git merge --no-f
