@@ -21,3 +21,6 @@
 ## 14.
 git merge --no-f
 non-fast fowardのテスト
+
+## 5.
+git cranch fix/42
