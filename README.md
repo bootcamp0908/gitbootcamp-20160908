@@ -6,3 +6,6 @@
 - newline
 
 # Git のこと
+
+# git commit
+ 松永がコミットしました。
