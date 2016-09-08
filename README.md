@@ -7,6 +7,7 @@
 - account
 
 # git のコマンド解説
+
 ## 3.
 `git commit -a`
 addとcommitを一括で行う。
@@ -22,6 +23,10 @@ addとcommitを一括で行う。
 
 自分のローカルリポジトリに "fix/42" というブランチを作る。作るだけ。HEAD は移動しない。
 
+## 6.
+`git checkout -b fix/42;git commit`
+コミットを行った後、fix42のブランチを作成してHEADを作成したfix42に移動する。コミットなので変更ファイルは先にaddされている必要があるが、git commitに-aを加えればaddは省略できる。
+
 ## 9. `git merge`
 
 差分をマージする。master以外のブランチの差分をmasterに反映する。
@@ -30,23 +35,18 @@ addとcommitを一括で行う。
 
 リビジョンを入れ替えたり、削除したり、統合したりすることができる。
 
-## 13.
-`git merge -ff-only`
-
-最新リビジョンをマスターブランチとする
-
-## 6.
-`git checkout -b fix/42;git commit`
-コミットを行った後、fix42のブランチを作成してHEADを作成したfix42に移動する。コミットなので変更ファイルは先にaddされている必要があるが、git commitに-aを加えればaddは省略できる。
-
-## 14.
-git merge --no-f
-non-fast fowardのテスト
-
 ## 12.
 `git checkout`
 
 ブランチのHEADを移動する。それ以上の操作はなく、指定したブランチを作るわけでもない。そのため存在しないブランチを指定した場合にはエラーとなる。
+
+## 13. `git merge -ff-only`
+
+最新リビジョンをマスターブランチとする
+
+## 14.
+git merge --no-f
+non-fast fowardのテスト
 
 ## 15. `git fetch`
 
