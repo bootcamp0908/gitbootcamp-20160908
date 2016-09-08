@@ -20,7 +20,7 @@
 `git commit -a`
 addとcommitを一括で行う。
 結果はgit add を行ってから、git commitを行った場合と同じ。
-
+ただし、ファイル指定をしないため意図しない変更がコミットまで進んでしまう可能性がある。
 
 ## 4.
 `git commit --amend`
