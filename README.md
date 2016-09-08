@@ -56,17 +56,13 @@ non-fast fowardのテスト
 
 リモートの最新状態を別ブランチでローカルに持ってくる　マージはされない
 
-<<<<<<< HEAD
+## 18. `git pull --rebase`
+
+リモートの最新を fetch して、そこに自分の修正を rebase で取り込む。マージコミットが作られないので、履歴が直線的になる。
+
 ## 19. `git push`
 
 ローカルのリビジョンをリモートのmasterに追加する。origin/masterがHEADと一致する。
-
-## 22. `git clone`
-=======
-## 18. `git pull --rebase`
->>>>>>> my/firstbranch
-
-リモートの最新を fetch して、そこに自分の修正を rebase で取り込む。マージコミットが作られないので、履歴が直線的になる。
 
 ## 22. `git clone`
 
