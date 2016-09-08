@@ -22,6 +22,10 @@ addとcommitを一括で行う。
 結果はgit add を行ってから、git commitを行った場合と同じ。
 
 
+## 4.
+`git commit --amend`
+直前のコミットを全く別のコミットで置き換える
+
 ## 5.
 `git branch fix/42`
 
@@ -30,3 +34,6 @@ addとcommitを一括で行う。
 ## 14.
 git merge --no-f
 non-fast fowardのテスト
+
+## fix/42コミット.
+fix/42コミット.
