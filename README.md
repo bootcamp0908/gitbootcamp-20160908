@@ -8,10 +8,23 @@
 
 # git のコマンド解説
 
-## 5.
-`git branch fix/42`
+## 4.
+`git commit --amend`
 
-自分のローカルリポジトリに "fix/42" というブランチを作る。 HEAD は移動しない。
+直前のコミットを全く別のコミットで置き換える
+
+## 5. `git branch fix/42`
+
+自分のローカルリポジトリに "fix/42" というブランチを作る。作るだけ。HEAD は移動しない。
+
+## 13.
+`git merge -ff-only`
+
+最新リビジョンをマスターブランチとする
+
+## 14.
+git merge --no-f
+non-fast fowardのテスト
 
 ## 9.
 `git merge`
@@ -22,3 +35,10 @@
 `git rebase i`
 
 リビジョンを入れ替えたり、削除したり、統合したりすることができる。
+
+## 16. `git remote add;git fetch`
+
+リモートの最新状態を別ブランチでローカルに持ってくる　マージはされない
+
+#Issue test
+ #1
