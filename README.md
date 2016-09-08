@@ -30,5 +30,5 @@
 git merge --no-f
 non-fast fowardのテスト
 
-## 5.
-git cranch fix/42
+## fix/42コミット.
+fix/42コミット.
