@@ -17,7 +17,7 @@
 
 # git のコマンド解説
 ## 3.
-`git commit a`
+`git commit -a`
 addとcommitを一括で行う。
 結果はgit add を行ってから、git commitを行った場合と同じ。
 
