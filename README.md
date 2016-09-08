@@ -58,7 +58,7 @@ non-fast fowardのテスト
 
 ## 19. `git push`
 
-ローカルのリビジョンをリモートのmasterに追加する。origin/masterがHEADと一致する。
+ローカルのリポジトリのリビジョンをリモートリポジトリに追加する。origin/masterがHEADと一致する。
 
 ## 22. `git clone`
 
