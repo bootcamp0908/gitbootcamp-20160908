@@ -21,3 +21,6 @@
 ## 14.
 git merge --no-f
 non-fast fowardのテスト
+
+## fix/42コミット.
+fix/42コミット.
