@@ -42,7 +42,7 @@ addとcommitを一括で行う。
 
 ## 13. `git merge -ff-only`
 
-最新リビジョンをマスターブランチとする
+最新リビジョンをマスターブランチとする　ffはfast-forwardの意味
 
 ## 14.
 git merge --no-f
